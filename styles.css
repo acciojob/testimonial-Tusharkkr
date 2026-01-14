@@ -1,15 +1,36 @@
 /*  your css code here. If applicable */
-#container{
-            padding: 50px;
-            background-color: #f5f5f5;
-        }
-        .Testimonials{
-            padding: 20px;
-            border: 1px solid black;
-            background-color: white;
-        }
-        .Author{
-            text-align: right;
-            font-style: italic;
-            display: block;
-        }
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+/* Main Container */
+.testimonials-container {
+  background-color: #f5f5f5;
+  padding: 30px;
+}
+
+/* Heading */
+.testimonials-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Testimonial Box */
+.testimonial {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.text {
+  margin: 0 0 10px 0;
+}
+
+/* Author */
+.author {
+  text-align: right;
+  font-style: italic;
+  margin: 0;
+}
