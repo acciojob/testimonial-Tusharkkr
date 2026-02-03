@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* Main Container */
 .testimonial-container {
   background-color: #f5f5f5;
   padding: 20px;
@@ -9,17 +10,20 @@ body {
   margin: auto;
 }
 
-.testimonial-1,.testimonial-2 {
+/* Individual Testimonial Box */
+.testimonial {
   background-color: #ffffff;
   border: 1px solid #ccc;
   padding: 15px;
   margin-bottom: 15px;
 }
 
+/* Testimonial Text */
 .text {
   font-size: 16px;
 }
 
+/* Author Name */
 .author {
   text-align: right;
   font-style: italic;
